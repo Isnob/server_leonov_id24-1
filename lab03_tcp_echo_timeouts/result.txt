@@ -1,0 +1,12 @@
+=== терминал сервера ===
+admin@libux2:~/socket$ python3 '/home/admin/socket/lab03_tcp_echo_timeouts/server.py'
+server is listening on 9090
+new client ('127.0.0.1', 47788)
+received hi, it's me
+client left
+
+=== терминал клиента ===
+admin@libux2:~/socket$ python3 '/home/admin/socket/lab03_tcp_echo_timeouts/client.py'
+message (exit to quit): hi, it's me
+echo hi, it's me
+admin@libux2:~/socket$ 

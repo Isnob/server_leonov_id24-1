@@ -1,0 +1,14 @@
+=== терминал сервера ===
+admin@libux2:~/socket$ python3 '/home/admin/socket/lab02_tcp_echo_reusable/server.py'
+server is listening
+new client accepted ('127.0.0.1', 48044)
+received hi
+received exit
+client left, waiting for next
+
+=== терминал клиента ===
+admin@libux2:~/socket$ python3 '/home/admin/socket/lab02_tcp_echo_reusable/client.py'
+message (exit to quit): hi
+echo hi
+message (exit to quit): exit
+admin@libux2:~/socket$ 

@@ -1,0 +1,8 @@
+=== терминал сервера ===
+admin@libux2:~/socket$ python3 '/home/admin/socket/lab04_pickle_and_udp/pickle/server.py'
+admin@libux2:~/socket$ 
+
+=== терминал клиента ===
+admin@libux2:~/socket$ python3 '/home/admin/socket/lab04_pickle_and_udp/pickle/client.py'
+echo {'name': 'alice', 'n': 42}
+admin@libux2:~/socket$ 

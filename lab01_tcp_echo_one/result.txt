@@ -1,0 +1,11 @@
+=== терминал сервера ===
+admin@libux2:~/socket$ sudo python3 lab01_tcp_echo_one/server.py
+server is listening
+new client accepted ('127.0.0.1', 40966)
+received data hello
+admin@libux2:~/socket$ 
+
+=== терминал клиента ===
+admin@libux2:~/socket$ python3 lab01_tcp_echo_one/client.py 
+echo hello
+admin@libux2:~/socket$ 

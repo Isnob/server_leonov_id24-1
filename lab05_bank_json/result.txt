@@ -1,0 +1,12 @@
+=== терминал сервера ===
+admin@libux2:~/socket$ python3 '/home/admin/socket/lab05_bank_json/server.py'
+Bank server on port 9092
+client ('127.0.0.1', 60386)
+admin@libux2:~/socket$ 
+
+=== терминал клиента ===
+admin@libux2:~/socket$ python3 '/home/admin/socket/lab05_bank_json/client.py'
+Action (balance / deposit / withdraw): deposit
+Amount: 1000
+Balance: 1000
+admin@libux2:~/socket$ 
